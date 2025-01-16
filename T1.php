@@ -1,6 +1,5 @@
-//=======register.php=====
-
 <?php
+//=======register.php=====
 
 $db = new mysqli('localhost', 'root', '', 'kim');
     
@@ -74,10 +73,8 @@ if(isset($_POST['reg'])){
 </html>
 
 
-
-//====approve.php=====
-
 <?php
+//====approve.php=====
 
 $db = new mysqli('localhost', 'root', '', 'kim');
 
